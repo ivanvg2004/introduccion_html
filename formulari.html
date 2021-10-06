@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulari</title>
 </head>
 <body>
     <ul>
@@ -13,6 +13,33 @@
         <li><a href="horari.html">Horari </a></li>
         <li><a href="formulari.html">Formulari</a></li>
     </ul>
-
+    <h1>Exercici, formulari de registre</h1>
+    <form action="formulari.html" method="GET">
+            <label for="Nom">Nom</label>
+            <input id="Nom" type="text" required>
+            <label for="Llinatges">Llinatges</label>
+            <input id="Llinatges" type="text" required>
+        <div>
+            <label for="Home">Home</label>
+            <input name=”option” type="radio" id="Home" value="Home" />
+            <label for="Dona">Dona</label>
+            <input name=”option” type="radio" id="Dona" value="Dona" />
+        </div>
+        <div>
+            <label for="Contrasenya">Contrasenya:</label>
+            <input id="Contrasenya" type="password" required>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" placeholder="El teu mail" required/>
+        </div>
+        <div>
+            <label for="Data">Data de naixement:</label>
+            <input type="date" id="Data" required/>
+        </div>
+        <div>
+            <label for="checkbox">Estic d'acord amb els termes i condicions:</label>
+            <input type="checkbox" id="condicions" required/>
+        </div>
+        <button>Enviar</button>
+    </form>
 </body>
 </html>
