@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(0, 4, 255);
+}
+tr{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    border: rgb(0, 0, 0);
+}
+.Horari{
+    background-color: rgb(247, 0, 255);
+}
+.Informatica{
+    background-color: rgb(18, 156, 0)
+}
+.Hora{
+    background-color: rgb(0, 217, 255);
+}
+.Dias{
+    background-color: rgb(3, 139, 32);
+}
+
+.Pati{
+    background-color: yellow;
+}
