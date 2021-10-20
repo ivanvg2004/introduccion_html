@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    padding: 90px;
+}
+.border{
+    border: black solid 1px;
+}
+.top_bot{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+.left_right{
+    border-left: black solid 1px;
+    border-right: solid black 1px;
+}
+
