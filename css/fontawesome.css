@@ -1,0 +1,8 @@
+*{margin:0;padding:0;}
+.tab-container-1{
+    display: flex;
+    width: 500px;
+    background-color: rgb(94, 94, 206);
+    margin: 0 auto;
+    justify-content: space-around;
+}
